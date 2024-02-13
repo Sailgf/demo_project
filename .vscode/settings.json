@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "bsp_usart.h": "c",
+        "stm32f10x.h": "c",
+        "oled_i2c.h": "c"
+    }
+}

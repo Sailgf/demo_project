@@ -1,0 +1,1 @@
+for /r %%i in (*.h *.c) do "D:\LLVM\bin\clang-format.exe" -i -style=Google "%%i"
