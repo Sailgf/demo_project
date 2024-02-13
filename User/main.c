@@ -5,23 +5,23 @@
 #include "OLED_I2C.h"
 
 /**
-  * @brief  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-  * @param  ï¿½ï¿½
-  * @retval ï¿½ï¿½
+  * @brief  Ö÷º¯Êý
+  * @param  ÎÞ
+  * @retval ÎÞ
   */
 int main(void)
 {	
 	delay_init();
-  /*ï¿½ï¿½Ê¼ï¿½ï¿½USART ï¿½ï¿½ï¿½ï¿½Ä£Ê½Îª 115200 8-N-1ï¿½ï¿½ï¿½Ð¶Ï½ï¿½ï¿½ï¿½*/
+  /*³õÊ¼»¯USART ÅäÖÃÄ£Ê½Îª 115200 8-N-1£¬ÖÐ¶Ï½ÓÊÕ*/
   USART_Config();
 	OLED_Init();
 	OLED_Clear();
-	OLED_ShowString(0,42,"hello world",12);
+		OLED_ShowString(0,42,"hello world",12);
 
-  OLED_Refresh_Gram();
+    OLED_Refresh_Gram();
 
   while(1)
 	{	
-  	}	
+	}	
 }
-/*********************************************END OF FILE**********************/
+/******************************END OF FILE**********************/
