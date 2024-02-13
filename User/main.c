@@ -16,9 +16,9 @@ int main(void)
   USART_Config();
 	OLED_Init();
 	OLED_Clear();
-		OLED_ShowString(0,42,"hello world",12);
+	OLED_ShowString(0,42,"hello world",12);
 
-    OLED_Refresh_Gram();
+  OLED_Refresh_Gram();
 
   while(1)
 	{	
